@@ -1,0 +1,417 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background: linear-gradient(136deg,rgb(85, 12, 12), rgb(82, 69, 69)); 
+}
+
+/* Navbar component styling */
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a {
+  margin: 3px;
+  padding: 3px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: white;
+  cursor: pointer;
+  /* box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); */
+  transform: scale(1.1);
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin: 9px;
+  margin-left: 30px;
+  padding: 9px;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+
+/* Main Body styling */
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.name {
+  font-size: 100px;
+  font-weight: 350;
+  margin-top: 80px;
+}
+
+.msg {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.social-links {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 23px;
+  transition: 0.3s ease-in-out;
+}
+
+.social-links a {
+  margin: 3px;
+  padding: 3px;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.social-links a:hover {
+  color: white;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.about-btn {
+  height: 55px;
+  width: 170px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  border: 2px solid white;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.about-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.about-btn:hover {
+  background-color: white;
+  border:none;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+.about-btn:hover a {
+  color: black;
+}
+
+/* About component styling */
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  padding-bottom: 30px;
+  margin: 20px; 
+  text-align: center;
+}
+
+.description 
+h1 {
+  font-size: 55px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+p {
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+}
+
+.resume {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 10px 10px;
+  transition: 0.3s ease-in-out;
+}
+.resume
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.resume:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 100;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.445);
+  transform: scale(1.1);
+}
+.resume:hover a {
+  color: white;
+}
+
+
+/* Contact component styling */
+.contact {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 50px;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+.contact p {
+  margin-top: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: lightseagreen;
+  font-weight: 400;
+}
+
+
+/* Skills component styling */
+.s-h1 {
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.wrapper {
+  background: rgb(235, 232, 232); 
+  padding: 30px;
+}
+
+.s-cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-1 {
+  height: 140px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  margin: 5px 5px 20px 250px;
+  border-radius: 15px;
+  text-align:center;
+  padding: 5px;
+}
+
+.card-1
+h2 {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.card-1
+p {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.card-2
+h2 {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.card-2
+p {
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.card-2 {
+  height: 140px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  margin: 5px 250px 20px 5px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px;
+}
+
+
+/* Projects component styling */
+.p-h1 {
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.p-wrapper {
+    background: black; 
+    color: white; 
+    padding: 30px;
+}
+
+.p-cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.p-card1 {
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  color: black;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  text-align:center;
+  padding: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.p-card1:hover{
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.p-card1
+h2 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.p-card1
+p {
+  font-size: 17px;
+  margin: 0;
+}
+
+.p-card2
+h2 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.p-card2
+p {
+  font-size: 17px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.p-card2 {
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  color: black;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.p-card2:hover{
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.p-card3
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.p-card3
+p {
+  font-size: 17px;
+  margin: 2px;
+}
+
+.p-card3 {
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  color: black;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.p-card3:hover{
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.icon {
+  color: black;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.git-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  margin-left: 500px;
+  margin: 20px 500px ;
+}
+.git-btn:hover {
+  background: linear-gradient(136deg,rgb(87, 4, 4), rgb(41, 30, 30)); 
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+.git-btn a {
+  color:#000000;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 500;
+}
+.git-btn:hover a {
+  color: white;
+}
+
+
+.a-icon {
+  color: #000000;
+  padding-left: 5px;
+}
+.git-btn:hover .a-icon {
+  color: white;
+}
